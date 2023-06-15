@@ -1,0 +1,145 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+}
+.heading{
+    font-family: cursive;
+    display: inline;
+    color: white;
+    font-size: 30px;
+}
+.top-container{
+    text-align: center;
+    height: 42vh;
+    width: 100%;
+}
+.button-container{
+    width: 100%;
+    height: 300px;
+    
+}
+.keyboard-button{
+    width: 100%;
+    height: 30vh;
+    margin-top: 30px;
+}
+.row1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-from-keyboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.division{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191970;
+    border: 4px solid #191970;
+    border-bottom-color: violet;
+    color: white;
+    font-size: 30px;
+    margin:10px;
+    width: 50px;
+    height: 50px;
+}
+.alphabet{
+    font-size: 45px;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+.alphabet:active{
+    transform: scale(0.90,0.98);
+    box-shadow: 3px 2px 22px 1px violet;
+}
+.game-type{
+    font-family: cursive;
+    display: inline;
+    color: white;
+    font-size: 30px;
+}
+hr{
+    border: 2px solid wheat;
+}
+img{
+    margin: 20px;
+    height: 45px;
+    width: 45px;
+}
+body{
+    width: 100%;
+    height: 745.60px;
+    background-color: #191970;
+}
+/*******popup*******/
+.popup {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.popup-content {
+    border-radius: 10px;
+    background-color: wheat;
+    margin: 10% auto;
+    padding: 20px;
+    width: 40%;
+    font-weight: bolder;
+    font-family: cursive;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.popup-content button {
+    border-radius: 5px;
+    border: 2px solid peru;
+    display: block;
+    padding: 5px;
+    margin: 20px auto;
+    background-color: peru;
+    transition: 0.2s all;
+}
+.popup-content button:active{
+    transform: scale(0.90,.98);
+    box-shadow: 3px 2px 22px 1px peru;
+}
+.show {
+    display: block;
+}
+
+/* modify */
+
